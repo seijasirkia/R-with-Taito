@@ -1,4 +1,4 @@
-#Make input and ougdatput folders.
+#Make input and output folders.
 mainDir <- "~/R_spatial_2017"
 tiffFolder <- "1_tiff"
 gridFolder <- "2_grid"

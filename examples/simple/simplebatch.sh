@@ -9,4 +9,4 @@
 #SBATCH --mem-per-cpu=1000
 #
 module load r-env
-srun Rscript --slave stupidrcode.R
+srun Rscript --no-save simplercode.R
