@@ -8,7 +8,7 @@
 #SBATCH -n 1
 #SBATCH -p serial
 
-module load r-env saga
+module load rspatial-env
 # move to the directory where the data files locate
 cd ~/R_spatial_2017
 # set input file to be processed

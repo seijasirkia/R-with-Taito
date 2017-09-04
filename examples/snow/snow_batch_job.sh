@@ -7,5 +7,5 @@
 #SBATCH --nodes=1
 #SBATCH --mem-per-cpu=4000
 
-module load r-env saga
+module load rspatial-env
 srun RMPISNOW --no-save -f Calc_contours_snow.R
